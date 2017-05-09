@@ -2,6 +2,11 @@ html {
     box-sizing: border-box;
 }
 
+html,
+body {
+    min-height: 100%;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -60,54 +65,54 @@ html {
 }
 /*------------------------*/
 .pp-sans-big-bold {
-  font-family: "pp-sans-big-bold", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-big-bold", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 .pp-sans-big-light {
-  font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-big-light", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 .pp-sans-big-medium {
-  font-family: "pp-sans-big-medium", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-big-medium", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 .pp-sans-big-regular {
-  font-family: "pp-sans-big-regular", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-big-regular", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 /*SMALL-------*/
 .pp-sans-small-bold {
-  font-family: "pp-sans-small-bold", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-small-bold", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 .pp-sans-small-light {
-  font-family: "pp-sans-small-light", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-small-light", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 .pp-sans-small-medium {
-  font-family: "pp-sans-small-medium", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-small-medium", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 .pp-sans-small-regular {
-  font-family: "pp-sans-small-regular", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-small-regular", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 .pp-sans-small-thin {
-  font-family: "pp-sans-small-thin", Helvetica Neue, Arial, sans-serif;
+  font-family: "pp-sans-small-thin", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-variant: normal;
 }
 
 body {
-    font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
+    font-family: "pp-sans-big-light", "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -360,6 +365,7 @@ p {
 
 .businessSolutions .getPaid {
     padding-bottom: 35px;
+    font-size: 20px;
 }
 
 .businessSolutions .explore {
@@ -393,7 +399,7 @@ p {
 
 
 /* nav starts breaking at 913px */
-@media all and (min-width: 624px) and (max-width: 913px){
+@media all and (min-width: 624px) and (max-width: 992px){
     .flex-nav {
         background:rgba(0, 0, 0, 0.2);
     }
@@ -447,12 +453,12 @@ p {
     .flex-nav li:nth-child(1),
     .flex-nav li:nth-child(2) {
         padding-left: 1em;
-        flex: 1 1 50%;
+        flex: 1 0 50%;
     }
     .flex-nav li:nth-child(3),
     .flex-nav li:nth-child(4) {
         padding-left: 1em;
-        flex: 1 1 50%;
+        flex: 1 0 50%;
     }
 }
 
@@ -501,7 +507,7 @@ p {
     .flex-nav li:nth-child(3),
     .flex-nav li:nth-child(4){
         padding-left: 0;
-        flex: 1 1 50%;
+        flex: 1 0 50%;
     }
     ul.open {
         display: -webkit-box;
@@ -530,5 +536,29 @@ p {
         -moz-transition: font-size 0.3s ease;
         -o-transition: font-size 0.3s ease;
         -ms-transition: font-size 0.3s ease; 
+        font-weight: 500;
+        font-style: italic;
+    }
+    .hero .description {
+        font-size: 16px;
+    }
+    .businessSolutions {
+        height: 17em;
+    }
+    .info h3,
+    .businessSolutions h3 {
+        font-size: 20px;
+        transition: all 0.3s ease;
+        -webkit-transition: font-size 0.3s ease;
+        -moz-transition: font-size 0.3s ease;
+        -o-transition: font-size 0.3s ease;
+        -ms-transition: font-size 0.3s ease; 
+    }
+    .businessSolutions h3 {
+        margin-top: 0;
+    }
+    .businessSolutions .getPaid {
+        padding-bottom: 0;
+        font-size: 16px;
     }
 }

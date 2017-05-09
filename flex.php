@@ -11,7 +11,7 @@
         <div class="wrapper">
             <div class="heroDiv">
                 <nav class="flex-nav">
-                    <a href="#" class="toggleNav"><i class="fa fa-bars" aria-hidden="true"></i>Menu</a>
+                    <a href="#" class="toggleNav"><i class="fa fa-bars" aria-hidden="true"></i> Menu</a>
                     <ul class="nav">
                         <li class="logo"><a href="">paypal</a></li>
                         <ul class="menu">
