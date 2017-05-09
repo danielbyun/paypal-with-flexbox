@@ -1,0 +1,534 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Paypal Sans Big*/
+@font-face {
+  font-family: "pp-sans-big-bold";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.svg") format("svg");
+}
+@font-face {
+  font-family: "pp-sans-big-light";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.svg") format("svg");
+}
+@font-face {
+  font-family: "pp-sans-big-medium";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.svg") format("svg");
+}
+@font-face {
+  font-family: "pp-sans-big-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.svg") format("svg");
+}
+@font-face {
+  font-family: "pp-sans-big-thin";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.svg") format("svg");
+}
+/*Paypal Sans Small-------------------------------------*/
+@font-face {
+  font-family: "pp-sans-small-bold";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.svg") format("svg");
+}
+@font-face {
+  font-family: "pp-sans-small-light";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.svg") format("svg");
+}
+@font-face {
+  font-family: "pp-sans-small-medium";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.svg") format("svg");
+}
+@font-face {
+  font-family: "pp-sans-small-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.svg") format("svg");
+}
+@font-face {
+  font-family: "pp-sans-small-thin";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.eot");
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.svg") format("svg");
+}
+/*------------------------*/
+.pp-sans-big-bold {
+  font-family: "pp-sans-big-bold", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+.pp-sans-big-light {
+  font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+.pp-sans-big-medium {
+  font-family: "pp-sans-big-medium", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+.pp-sans-big-regular {
+  font-family: "pp-sans-big-regular", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+/*SMALL-------*/
+.pp-sans-small-bold {
+  font-family: "pp-sans-small-bold", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+.pp-sans-small-light {
+  font-family: "pp-sans-small-light", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+.pp-sans-small-medium {
+  font-family: "pp-sans-small-medium", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+.pp-sans-small-regular {
+  font-family: "pp-sans-small-regular", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+.pp-sans-small-thin {
+  font-family: "pp-sans-small-thin", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+}
+
+body {
+    font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  color:white;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  padding: 15px 15px;
+  width: 100%;
+  display: inline-block;
+  transition: all 0.1s;
+}
+
+button {
+    border-radius: 30px;
+}
+
+h3 {
+    letter-spacing: 2.5px;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+.heroDiv ul {
+    margin-top: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.heroDiv {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/img.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.flex-nav {
+    border-bottom: 1px solid grey;
+}
+
+.toggleNav {
+    display: none;
+    border-bottom: 1px solid grey;
+}
+
+/* flex container */
+.flex-nav .nav {
+    padding: 12px 0 0 0;
+}
+
+.flex-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+/* flex items */
+.logo {
+    text-transform: capitalize;
+}
+
+.menu {
+    text-transform: uppercase;
+}
+
+.menu a {
+    padding: 15px 3.5em;
+}
+
+.logIn,
+.signUp {
+    border: none;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+
+.logIn {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.signUp {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.logIn p,
+.signUp p {
+    margin: 0 auto;
+}
+
+.signUp p {
+    color: black;
+}
+
+/* hero section */
+.hero {
+    height: 35em;
+    color: white;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.hero .fa {
+    display: inline;
+}
+
+.hero .videoIcon {
+    display: block;
+}
+
+.hero h3 {
+    text-transform: capitalize;
+    font-size: 55px;
+    margin: 0 auto;
+}
+
+.hero .description {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* reset the padding on the links for the hero section */
+.hero a {
+    padding: 0;
+}
+
+.hero button p {
+    font-size: 13px;
+}
+
+.hero .signUpForFree,
+.hero .video {
+    padding: 3px 100px;
+    background: none;
+    border: none;
+    margin-bottom: 1em;
+}
+
+.hero .signUpForFree {
+    background-color: #004C9D;
+}
+
+.hero .video {
+    border: 1px solid white;
+    padding: 3px 90px;
+}
+
+.hero .asteriks {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+/* info section */
+.info {
+    height: 19em;
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.info h3 {
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.info .infoButton {
+    background: none;
+    border: solid 1.5px #004C9D;
+    width: 25em;
+    padding: 5px;
+    margin: 0 auto;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+
+.infoButton p {
+    color: #004C9D;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* business solutions section */
+.businessSolutions {
+    height: 25em;
+    background-image: radial-gradient(circle farthest-side at center bottom, #009cde, #003087 125%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.businessSolutions h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.businessSolutions p {
+    text-align: center;
+    color: white;
+}
+
+.businessSolutions .getPaid {
+    padding-bottom: 35px;
+}
+
+.businessSolutions .explore {
+    background: none;
+    border: 1px solid white;
+    width: 25em;
+    padding: 5px;
+    margin: 0 auto;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+
+.infoButton a,
+.explore a {
+    padding: 0;
+}
+
+.explore p {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+/* buttom section (empty) */
+.bottom {
+    height: 10em;
+    background-color: white;
+}
+
+
+/* nav starts breaking at 913px */
+@media all and (min-width: 624px) and (max-width: 913px){
+    .flex-nav {
+        background:rgba(0, 0, 0, 0.2);
+    }
+    .flex-nav ul{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .menu {
+        padding-left: 0;
+        -webkit-box-flex: 2;
+            -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
+    }
+    .flex-nav .user {
+        width: 100%;
+        padding-left: 0;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .logIn,
+    .signUp,
+    .logIn a,
+    .signUp a {
+        padding: 3px 5px;
+    }
+    .logo {
+        display: none;
+    }
+}
+
+/* another break 623px */
+@media all and (min-width: 506px) and (max-width: 623px){
+    .flex-nav {
+        background:rgba(0, 0, 0, 0.2);
+    }
+    .flex-nav ul {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    .logo {
+        display: none;
+    }
+    .user {
+        padding-left: 0;
+    }
+    .flex-nav li:nth-child(1),
+    .flex-nav li:nth-child(2) {
+        padding-left: 1em;
+        flex: 1 1 50%;
+    }
+    .flex-nav li:nth-child(3),
+    .flex-nav li:nth-child(4) {
+        padding-left: 1em;
+        flex: 1 1 50%;
+    }
+}
+
+/* mobile side toggle icon at 500px */
+@media all and (max-width: 505px){
+    body {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/img.jpg) no-repeat center center fixed;
+    }
+    .wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .wrapper > * {
+        -webkit-box-ordinal-group: 10000;
+            -ms-flex-order: 9999;
+                order: 9999;
+    }
+    .toggleNav {
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out; 
+    }
+    .flex-nav {
+        background:rgba(0, 0, 0, 0.2);
+    }
+    .flex-nav ul {
+        display: none;
+        padding-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .flex-nav .nav {
+        padding-top: 0;
+    }
+    .flex-nav li:nth-child(1),
+    .flex-nav li:nth-child(2),
+    .flex-nav li:nth-child(3),
+    .flex-nav li:nth-child(4){
+        padding-left: 0;
+        flex: 1 1 50%;
+    }
+    ul.open {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .flex-nav .logIn,
+    .flex-nav .signUp {
+        margin: 0 auto;
+        width: 15em;
+    }
+    .flex-nav .logIn {
+        margin-bottom: 10px;
+    }
+    .logo {
+        display: none;
+    }
+    .hero h3 {
+        font-size: 30px;
+        transition: all 0.3s ease;
+        -webkit-transition: font-size 0.3s ease;
+        -moz-transition: font-size 0.3s ease;
+        -o-transition: font-size 0.3s ease;
+        -ms-transition: font-size 0.3s ease; 
+    }
+}
